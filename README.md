@@ -1,7 +1,8 @@
 Error Reporting System DJANGO Api
 =============
 For report human been issues you can use this api.
-####Prerequest
+
+<h3>Prerequest<h3>
 
 `$ cd error-reporting-system-django-api`
 
@@ -15,6 +16,6 @@ You must set mysql db options at `settings.py` . After then in project directory
 
 `$ python manage.py migrate` for migrate model to database.
 
-####For run project 
+<h3>For run project<h3>
 
 `$ python manage.py runserver`
