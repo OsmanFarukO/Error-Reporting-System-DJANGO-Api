@@ -130,8 +130,8 @@ WSGI_APPLICATION = 'errordetection.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'errordetection2', # 'edet'
-        'HOST': '172.17.0.2',
+        'NAME': '', # YOU MUST SET DB NAME
+        'HOST': '', # YOU MUST SET DB HOST
         'PASSWORD': 'root123',
         'USER': 'root',
         'PORT': '3306'
